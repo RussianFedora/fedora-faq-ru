@@ -1,20 +1,11 @@
 [Desktop Entry]
 Categories=System;Documentation;
 Comment[ru_RU]=Большой FAQ по Fedora
-Comment=Большой FAQ по Fedora
+Comment=Big Fedora FAQ in russian
 Exec=xdg-open /usr/share/doc/fedora-faq-ru/index.html
-GenericName[ru_RU]=
-GenericName=
 Icon=system-help
-MimeType=
 Name[ru_RU]=fedora-faq-ru
 Name=fedora-faq-ru
-Path=
 StartupNotify=false
 Terminal=false
-TerminalOptions=
 Type=Application
-X-DBUS-ServiceName=
-X-DBUS-StartupType=
-X-KDE-SubstituteUID=false
-X-KDE-Username=
