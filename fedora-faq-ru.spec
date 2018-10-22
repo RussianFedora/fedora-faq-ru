@@ -2,7 +2,7 @@ Name: fedora-faq-ru
 Version: 2018.10.22
 Release: 1%{?dist}
 
-License: CC-BY
+License: CC-BY-SA
 URL: https://github.com/xvitaly/%{name}
 Summary: Fedora FAQ in russian
 BuildArch: noarch
