@@ -5,6 +5,7 @@ Release: 1%{?dist}
 License: CC-BY
 URL: https://github.com/xvitaly/%{name}
 Summary: Fedora FAQ in russian
+BuildArch: noarch
 
 Source0: %{url}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
 
