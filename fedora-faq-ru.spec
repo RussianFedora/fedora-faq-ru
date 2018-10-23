@@ -34,6 +34,7 @@ BuildRequires: texlive-collection-langcyrillic
 BuildRequires: texlive-cyrillic-bin
 BuildRequires: texlive-cmcyr
 BuildRequires: texlive-cyrillic-bin-bin
+BuildRequires: texlive-fncychap
 
 %description
 We decided to find and document answers to the most of the frequently asked
