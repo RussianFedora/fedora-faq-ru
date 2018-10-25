@@ -1,9 +1,9 @@
 Name: fedora-faq-ru
-Version: 2018.10.22
+Version: 2018.10.25
 Release: 1%{?dist}
 
 License: CC-BY-SA
-URL: https://github.com/xvitaly/%{name}
+URL: https://github.com/RussianFedora/FAQ
 Summary: Fedora FAQ in russian
 BuildArch: noarch
 
@@ -57,5 +57,8 @@ desktop-file-install --dir="%{buildroot}%{_datadir}/applications" %{SOURCE1}
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
+* Thu Oct 25 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 2018.10.25-1
+- Updated to version 2018.10.25.
+
 * Mon Oct 22 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 2018.10.22-1
 - Initial SPEC release.
