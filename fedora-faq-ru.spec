@@ -41,7 +41,7 @@ We decided to find and document answers to the most of the frequently asked
 questions from our conferences about Fedora for convenience of end users.
 
 %prep
-%autosetup
+%autosetup -n FAQ-%{version}
 
 %build
 make html
