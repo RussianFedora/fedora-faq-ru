@@ -35,6 +35,11 @@ BuildRequires: texlive-cyrillic-bin
 BuildRequires: texlive-cmcyr
 BuildRequires: texlive-cyrillic-bin-bin
 BuildRequires: texlive-fncychap
+BuildRequires: texlive-xetex
+BuildRequires: dejavu-sans-fonts
+BuildRequires: dejavu-serif-fonts
+BuildRequires: dejavu-sans-mono-fonts
+BuildRequires: texlive-polyglossia
 
 %description
 We decided to find and document answers to the most of the frequently asked
