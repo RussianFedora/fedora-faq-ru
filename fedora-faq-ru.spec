@@ -1,5 +1,5 @@
 Name: fedora-faq-ru
-Version: 2018.12.25
+Version: 2019.01.25
 Release: 1%{?dist}
 
 License: CC-BY-SA
@@ -57,6 +57,9 @@ desktop-file-install --dir="%{buildroot}%{_datadir}/applications" %{SOURCE1}
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
+* Fri Jan 25 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.01.25-1
+- Updated to version 2019.01.25.
+
 * Tue Dec 25 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 2018.12.25-1
 - Updated to version 2018.12.25.
 
