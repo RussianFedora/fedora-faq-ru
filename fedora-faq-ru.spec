@@ -40,6 +40,9 @@ BuildRequires: dejavu-sans-fonts
 BuildRequires: dejavu-serif-fonts
 BuildRequires: dejavu-sans-mono-fonts
 BuildRequires: texlive-polyglossia
+%if 0%{?fedora} && 0%{?fedora} > 30
+BuildRequires: texlive-xindy
+%endif
 
 %description
 We decided to find and document answers to the most of the frequently asked
