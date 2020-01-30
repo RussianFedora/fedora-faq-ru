@@ -1,5 +1,5 @@
 Name: fedora-faq-ru
-Version: 2019.12.30
+Version: 2020.01.30
 Release: 1%{?dist}
 
 License: CC-BY-SA
@@ -7,7 +7,7 @@ URL: https://github.com/RussianFedora/FAQ
 Summary: Fedora FAQ in russian
 BuildArch: noarch
 
-Source0: %{url}/archive/v%{version}.tar.gz#/%{name}-%{version}.tar.gz
+Source0: %{url}/archive/v%{version}/%{name}-%{version}.tar.gz
 Source1: %{name}.desktop
 
 BuildRequires: python3
@@ -65,6 +65,9 @@ desktop-file-install --dir="%{buildroot}%{_datadir}/applications" %{SOURCE1}
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
+* Thu Jan 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.01.30-1
+- Updated to version 2020.01.30.
+
 * Mon Dec 30 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.12.30-1
 - Updated to version 2019.12.30.
 
