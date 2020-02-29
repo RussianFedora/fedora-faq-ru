@@ -1,5 +1,5 @@
 Name: fedora-faq-ru
-Version: 2020.01.30
+Version: 2020.02.29
 Release: 1%{?dist}
 
 License: CC-BY-SA
@@ -40,9 +40,7 @@ BuildRequires: dejavu-sans-fonts
 BuildRequires: dejavu-serif-fonts
 BuildRequires: dejavu-sans-mono-fonts
 BuildRequires: texlive-polyglossia
-%if 0%{?fedora} && 0%{?fedora} > 30
 BuildRequires: texlive-xindy
-%endif
 
 %description
 We decided to find and document answers to the most of the frequently asked
@@ -65,6 +63,9 @@ desktop-file-install --dir="%{buildroot}%{_datadir}/applications" %{SOURCE1}
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
+* Sat Feb 29 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.02.29-1
+- Updated to version 2020.02.29.
+
 * Thu Jan 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.01.30-1
 - Updated to version 2020.01.30.
 
