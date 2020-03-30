@@ -1,5 +1,5 @@
 Name: fedora-faq-ru
-Version: 2020.02.29
+Version: 2020.03.30
 Release: 1%{?dist}
 
 License: CC-BY-SA
@@ -63,6 +63,9 @@ desktop-file-install --dir="%{buildroot}%{_datadir}/applications" %{SOURCE1}
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
+* Mon Mar 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.03.30-1
+- Updated to version 2020.03.30.
+
 * Sat Feb 29 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.02.29-1
 - Updated to version 2020.02.29.
 
