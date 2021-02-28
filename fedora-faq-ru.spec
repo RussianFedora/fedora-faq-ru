@@ -1,5 +1,5 @@
 Name: fedora-faq-ru
-Version: 2020.12.30
+Version: 2021.02.28
 Release: 1%{?dist}
 
 License: CC-BY-SA
@@ -63,83 +63,5 @@ desktop-file-install --dir="%{buildroot}%{_datadir}/applications" %{SOURCE1}
 %{_datadir}/applications/%{name}.desktop
 
 %changelog
-* Wed Dec 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.12.30-2
-- Updated to version 2020.12.30.
-
-* Fri Oct 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.10.30-1
-- Updated to version 2020.10.30.
-
-* Thu Jul 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.07.30-1
-- Updated to version 2020.07.30.
-
-* Tue Jun 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.06.30-1
-- Updated to version 2020.06.30.
-
-* Sat May 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.05.30-1
-- Updated to version 2020.05.30.
-
-* Thu Apr 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.04.30-1
-- Updated to version 2020.04.30.
-
-* Mon Mar 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.03.30-1
-- Updated to version 2020.03.30.
-
-* Sat Feb 29 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.02.29-1
-- Updated to version 2020.02.29.
-
-* Thu Jan 30 2020 Vitaly Zaitsev <vitaly@easycoding.org> - 2020.01.30-1
-- Updated to version 2020.01.30.
-
-* Mon Dec 30 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.12.30-1
-- Updated to version 2019.12.30.
-
-* Sat Nov 30 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.11.30-1
-- Updated to version 2019.11.30.
-
-* Wed Oct 30 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.10.30-1
-- Updated to version 2019.10.30.
-
-* Mon Sep 30 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.09.30-1
-- Updated to version 2019.09.30.
-
-* Fri Aug 30 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.08.30-1
-- Updated to version 2019.08.30.
-
-* Wed Jul 31 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.07.31-1
-- Updated to version 2019.07.31.
-
-* Sun Jun 23 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.06.23-1
-- Updated to version 2019.06.23.
-
-* Sat May 25 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.05.25-1
-- Updated to version 2019.05.25.
-
-* Sun May 12 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.05.12-1
-- Updated to version 2019.05.12.
-
-* Thu Apr 25 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.04.25-1
-- Updated to version 2019.04.25.
-
-* Fri Apr 12 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.04.12-1
-- Updated to version 2019.04.12.
-
-* Mon Mar 25 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.03.25-1
-- Updated to version 2019.03.25.
-
-* Sun Mar 10 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.03.10-1
-- Updated to version 2019.03.10.
-
-* Mon Feb 18 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.02.18-1
-- Updated to version 2019.02.18.
-
-* Fri Jan 25 2019 Vitaly Zaitsev <vitaly@easycoding.org> - 2019.01.25-1
-- Updated to version 2019.01.25.
-
-* Tue Dec 25 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 2018.12.25-1
-- Updated to version 2018.12.25.
-
-* Thu Oct 25 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 2018.10.25-1
-- Updated to version 2018.10.25.
-
-* Mon Oct 22 2018 Vitaly Zaitsev <vitaly@easycoding.org> - 2018.10.22-1
-- Initial SPEC release.
+* Sun Feb 28 2021 Vitaly Zaitsev <vitaly@easycoding.org> - 2021.02.28-1
+- Updated to version 2021.02.28.
