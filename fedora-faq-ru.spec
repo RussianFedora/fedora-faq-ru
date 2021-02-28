@@ -13,6 +13,7 @@ Source1: %{name}.desktop
 BuildRequires: python3
 BuildRequires: python3-sphinx
 BuildRequires: desktop-file-utils
+BuildRequires: make
 
 BuildRequires: latexmk
 BuildRequires: texlive-cmap
